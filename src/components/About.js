@@ -6,7 +6,7 @@ import '../styles/About.scss';
 class About extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row>
                     <Col>
                         <h2>Olá, somos a Jüssi</h2>

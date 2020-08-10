@@ -6,7 +6,7 @@ import '../styles/Newsletter.scss';
 class Newsletter extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row>
                     <Col><h2><img src={AspasVerde} alt="Aspas" /> receba novidades da nossa área de produtos digitais.</h2></Col>
                 </Row>

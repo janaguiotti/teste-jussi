@@ -6,7 +6,7 @@ import '../styles/Solutions.scss';
 class Solutions extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row>
                     <Col>
                         <h2><img src={AspasVerde} alt="Aspas" /> Nossas soluções</h2>

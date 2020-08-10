@@ -5,7 +5,7 @@ import '../styles/Contact.scss';
 class Contact extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row>
                     <Col>
                         <h2>Essa loja foi construída usando uma das nossas soluções da plataforma VTEX. tenha a sua.</h2>

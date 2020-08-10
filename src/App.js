@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './App.scss';
 import Navigation from './components/Navigation';
 import PromotionBanner from './components/PromotionBanner';
-import Brands from './components/Navigation';
+import Brands from './components/Brands';
 import Solutions from './components/Solutions';
 import About from './components/About';
 import Contact from './components/Contact';

@@ -9,32 +9,40 @@ import '../styles/Promotion.scss';
 class PromotionBanner extends React.Component {
     render() {
         return (
-            <Container fluid className="banner">
+            <Container className="banner">
                 <Row>
                     <Col>
                         <div className="slogan">
                             <div className="aspas">
                                 <img src={Aspas} alt="Aspas" />
                             </div>
-                            <h1>Criamos lojas que vendem mais.</h1>
-                            <h2>A Jüssi é especialista na criação de lojas usando a plataforma VTEX. 
-                                Precisa criar sua loja ou migrar de plataforma?
-                            </h2>
-                            <Button variant="outline-secondary" size="lg">Veja nossas soluções</Button>
+                            <div className="content">
+                                <h1>Criamos lojas que vendem mais.</h1>
+                                <h2>A Jüssi é especialista na criação de lojas usando a plataforma VTEX. 
+                                    Precisa criar sua loja ou migrar de plataforma?
+                                </h2>
+                                <Button variant="outline-secondary" size="lg">Veja nossas soluções</Button>
+                            </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col className="cards">
                         <div className="card-item-1">
-                            <img src={Batedeira} alt="Batedeira" />
-                            <Button variant="outline-danger">Comprar em 12x</Button>
+                            <div className="content">
+                                <img src={Batedeira} alt="Batedeira" />
+                                <Button variant="outline-danger">Comprar em 12x</Button>
+                            </div>
                         </div>
-                        <div className="card-item-1">
-                            <img src={Geladeira} alt="Geladeira" />
-                            <Button variant="outline-danger">Mais Detalhes</Button>
+                        <div className="card-item-2">
+                            <div className="content">
+                                <img src={Geladeira} alt="Geladeira" />
+                                <Button variant="outline-danger">Mais Detalhes</Button>
+                            </div>
                         </div>
-                        <div className="card-item-1">
-                            <img src={Bebida} alt="Bebida" />
-                            <Button variant="outline-danger">Adicionar à sacola</Button>
+                        <div className="card-item-3">
+                            <div className="content">
+                                <img src={Bebida} alt="Bebida" />
+                                <Button variant="outline-danger">Adicionar à sacola</Button>
+                            </div>
                         </div>
                     </Col>
                 </Row>

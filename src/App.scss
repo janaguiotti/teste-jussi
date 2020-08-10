@@ -1,4 +1,11 @@
-.landing-page {
+body {
+  font-family: 'Barlow', sans-serif;
+  .landing-page {
     padding-right: 0!important; 
     padding-left: 0!important;
+    .big-banner {
+      height: 560px;
+      background-color: #03FFA5;
+    }
+}
 }

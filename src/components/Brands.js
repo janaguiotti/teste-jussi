@@ -9,7 +9,7 @@ import '../styles/Brands.scss';
 class Brands extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row>
                     <Col>
                         <Row>

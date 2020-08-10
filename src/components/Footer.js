@@ -9,7 +9,7 @@ import '../styles/Footer.scss';
 class Footer extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row className="copyright">
                     <Col className="pull-left">
                         <img src={WppCompany} alt="Wpp Company" />
