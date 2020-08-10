@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 1140px;
+    margin: auto;
+    align-items: center;
+    .grid-item {
+        margin: auto;
+        padding: 12px 0;
+        &:first-child {
+            margin: 0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            grid-gap: 10px;
+        }
+    }
+}
+
+
+
+.title {
+    h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
