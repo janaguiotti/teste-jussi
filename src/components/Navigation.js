@@ -7,7 +7,7 @@ import '../styles/Navigation.scss';
 class Navigation extends React.Component {
     render() {
         return (
-            <Navbar expand="lg" bg="light" expand="lg">
+            <Navbar expand="lg" expand="lg">
                 <Navbar.Brand href="#home">
                     <img src={Logo} alt="Jussi" />
                 </Navbar.Brand>
@@ -18,7 +18,7 @@ class Navigation extends React.Component {
                         <Nav.Link href="#link">Conheça a Jüssi</Nav.Link>
                     </Nav>
                     <Search />
-                    <Nav className="mr-auto">
+                    <Nav className="nav-right">
                         <Nav.Link href="#link">Login</Nav.Link>
                         <Nav.Link href="#link">
                             <i className="fa fa-shopping-cart" aria-hidden="true"></i>
