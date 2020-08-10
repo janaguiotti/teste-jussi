@@ -8,7 +8,7 @@ class About extends React.Component {
         return (
             <Container>
                 <Row>
-                    <Col>
+                    <Col className="text">
                         <h2>Olá, somos a Jüssi</h2>
                         <p>A Jüssi é uma agência integrante do grupo global WPP que vem há 10 anos consolidando 
                         o pensamento voltado para produtos e resolução de problemas. Nosso área dedicada exclusivamente 
@@ -16,7 +16,7 @@ class About extends React.Component {
                         Design, SEO, Tecnologia, Agile e User Behavior Analytics.</p>
                         <Button variant="outline-secondary" size="lg">Conheça a Jüssi</Button>
                     </Col>
-                    <Col>
+                    <Col className="image">
                         <img src={Jussi} alt="Jussi" /> 
                     </Col>
                 </Row>
