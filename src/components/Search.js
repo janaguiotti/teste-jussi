@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import '../styles/Search.scss';
-import Loader from '../assets/images/loader.gif'
+import Loader from '../assets/images/loader.gif';
 
 class Search extends React.Component {
     constructor( props ) {
