@@ -1,0 +1,21 @@
+.container {
+    .copyright {
+        padding: 50px 0;
+        .pull-right {
+            float: right;
+            text-align: right;
+            ul {
+                list-style:none;
+                padding:0px;
+                margin:0px;
+                li {
+                    display: inline;
+                    margin-right: 10px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
