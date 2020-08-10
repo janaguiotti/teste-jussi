@@ -13,82 +13,74 @@ class Solutions extends React.Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <div className="product">
-                                    <p>P1</p>
-                                </div>
-                                <Card.Title>Nome do Produto #1</Card.Title>
-                                <Card.Text>
-                                <h4>Descrição do produto #1</h4>
-                                <ul>
-                                    <li>Feature 1</li>
-                                    <li>Feature 2</li>
-                                    <li>Feature 3</li>
-                                </ul>
-                                </Card.Text>
-                                <Button variant="success">Ver solução</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <div className="product">
-                                    <p>P2</p>
-                                </div>
-                                <Card.Title>Nome do Produto #2</Card.Title>
-                                <Card.Text>
-                                <h4>Descrição do produto #2</h4>
-                                <ul>
-                                    <li>Feature 1</li>
-                                    <li>Feature 2</li>
-                                    <li>Feature 3</li>
-                                </ul>
-                                </Card.Text>
-                                <Button variant="success">Ver solução</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <div className="product">
-                                    <p>P3</p>
-                                </div>
-                                <Card.Title>Nome do Produto #3</Card.Title>
-                                <Card.Text>
-                                <h4>Descrição do produto #3</h4>
-                                <ul>
-                                    <li>Feature 1</li>
-                                    <li>Feature 2</li>
-                                    <li>Feature 3</li>
-                                </ul>
-                                </Card.Text>
-                                <Button variant="success">Ver solução</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <div className="product">
-                                    <p>P4</p>
-                                </div>
-                                <Card.Title>Nome do Produto #4</Card.Title>
-                                <Card.Text>
-                                <h4>Descrição do produto #4</h4>
-                                <ul>
-                                    <li>Feature 1</li>
-                                    <li>Feature 2</li>
-                                    <li>Feature 3</li>
-                                </ul>
-                                </Card.Text>
-                                <Button variant="success">Ver solução</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <div className="product">
+                                <p>P1</p>
+                            </div>
+                            <Card.Title>Nome do Produto #1</Card.Title>
+                            <Card.Text>
+                            <h4>Descrição do produto #1</h4>
+                            <ul>
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                            </Card.Text>
+                            <Button variant="success">Ver solução</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <div className="product">
+                                <p>P2</p>
+                            </div>
+                            <Card.Title>Nome do Produto #2</Card.Title>
+                            <Card.Text>
+                            <h4>Descrição do produto #2</h4>
+                            <ul>
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                            </Card.Text>
+                            <Button variant="success">Ver solução</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <div className="product">
+                                <p>P3</p>
+                            </div>
+                            <Card.Title>Nome do Produto #3</Card.Title>
+                            <Card.Text>
+                            <h4>Descrição do produto #3</h4>
+                            <ul>
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                            </Card.Text>
+                            <Button variant="success">Ver solução</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <div className="product">
+                                <p>P4</p>
+                            </div>
+                            <Card.Title>Nome do Produto #4</Card.Title>
+                            <Card.Text>
+                            <h4>Descrição do produto #4</h4>
+                            <ul>
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                            </Card.Text>
+                            <Button variant="success">Ver solução</Button>
+                        </Card.Body>
+                    </Card>
                 </Row>
             </Container>
         );
