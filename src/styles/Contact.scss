@@ -1,0 +1,28 @@
+.container {
+    color: #ffffff;
+    text-align: center;
+    padding: 130px 0;
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        width: 676px;
+        margin: 0 auto 30px;
+        font-family: 'Barlow', sans-serif;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+    a {
+        font-size: 32px;
+        line-height: 24px;
+        font-weight: normal;
+        color: #ffffff;
+        &:hover {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+    }
+}
